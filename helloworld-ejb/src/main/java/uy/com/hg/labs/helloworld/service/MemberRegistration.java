@@ -34,7 +34,7 @@ public class MemberRegistration {
     private Logger log;
 
     @Inject
-    @PersistenceContext(unitName="helloworldDS")
+    @PersistenceContext(unitName="helloworldPU")
     private EntityManager em;
 
     @Inject

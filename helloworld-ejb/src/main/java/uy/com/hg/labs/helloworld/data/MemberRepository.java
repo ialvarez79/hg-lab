@@ -32,7 +32,7 @@ import uy.com.hg.labs.helloworld.model.Member;
 public class MemberRepository {
 
     @Inject
-    @PersistenceContext(unitName="helloworldDS")
+    @PersistenceContext(unitName="helloworldPU")
     private EntityManager em;
 
     @Inject
