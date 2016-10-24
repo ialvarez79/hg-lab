@@ -135,7 +135,7 @@
 		            <failOnMissingWebXml>false</failOnMissingWebXml>
 		            <archive>
 						<manifestEntries>
-							<Dependencies>org.slf4j,org.apache.commons.configuration</Dependencies>
+							<Dependencies>org.slf4j</Dependencies>
 						</manifestEntries>
 					</archive>
 
